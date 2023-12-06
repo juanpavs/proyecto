@@ -1,0 +1,70 @@
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-bar-button {
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button span {
+  margin-left: 10px;
+}
+
+.button-content {
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  display: none;
+  background-color: #000; 
+  padding: 10px; 
+  width: 200px; 
+}
+
+.top-bar-button.open .button-content {
+  display: block;
+}
+
+.button-content.left {
+  left: 0;
+  transform: translateX(-100%);
+}
+.top-bar-button:hover .button-content {
+  display: block;
+}*/
+
+.top-bar-button {
+  cursor: pointer;
+  position: relative;
+}
+
+.button-icon {
+  color: #fff;
+}
+
+.button-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: none;
+}
+
+.top-bar-button.open .button-content {
+  display: block;
+}

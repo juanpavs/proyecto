@@ -1,0 +1,120 @@
+/*.direccion-section {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .direccion-question {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    user-select: none;
+  }
+  
+  .direccion-answer {
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .direccion-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .direccion-text {
+    display: none;
+  }
+
+  .direccion-section.open .direccion-text {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 5px; 
+  }*/
+
+  /* DireccionSection.css 
+.direccion-section {
+  position: relative;
+}
+
+.direccion-image-container {
+  position: absolute;
+  width: 100%;
+}
+
+.direccion-image {
+  width: 100%;
+  height: auto;
+}
+
+.direccion-text {
+  display: none;
+  position: relative;
+  z-index: 2;
+  background-color: white; 
+  padding: 20px;
+  border-radius: 5px; 
+}
+
+.direccion-section.open .direccion-text {
+  display: block;
+  position: relative;
+    z-index: 2;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 5px; 
+}*/
+
+/* DireccionSection.css */
+.direccion-section {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.direccion-question {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  user-select: none;
+}
+
+.direccion-answer {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.direccion-image-container {
+  max-width: 100%;
+}
+
+.direccion-image {
+  width: 100%;
+  height: auto;
+}
+
+.direccion-text {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.direccion-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}

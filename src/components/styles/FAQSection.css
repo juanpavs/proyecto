@@ -1,0 +1,19 @@
+.faq-section {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .faq-question {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    user-select: none;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    background-color: #fff;
+  }
+  

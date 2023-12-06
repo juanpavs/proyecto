@@ -1,0 +1,18 @@
+.contacto-section {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .contacto-question {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    user-select: none;
+  }
+  
+  .contacto-answer {
+    padding: 10px;
+    background-color: #fff;
+  }
