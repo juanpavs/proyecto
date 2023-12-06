@@ -1,0 +1,72 @@
+instalar en arduino las librerias wifi.h y mysqlconnection.h, sino se adjunta con el archivo zip el paquete para su instalación.
+Mientras en react correr el comando NPM install, para instalar las librerias pendientes para su uso, corrobar estas librerias para su instalacion, por si visual studio no las coloca en ese caso: 
+
+  "name": "proyectom",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.17",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "bootstrap-icons-react": "^1.0.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "file-saver": "^2.0.5",
+    "formik": "^2.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^7.5.1",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "socket.io-client": "^4.7.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+} 
+Video tutorial para instalar las placas arduino sea esp32 y esp8266, junto a la escogencia del puerto y el tipo de referencia de la placa, ejemplo: ESP32 Dev Module, para el uso de placas de este tipo.
+https://www.youtube.com/watch?v=TjvD6OBAuT4
+para emplear xampp y mysql workbench con el script en el archivo index.js de la carpeta de server, esta el usuario y la contraseña, para el ingreso a la base de datos y con ejecucion simultanea de los cuatro programas al mismo tiempo, funcionan como tal el sistema desarrollado.
+Instalar librerias HTTPClient, WiFiNINA, Wifi101, Arduino_ConnectionHandler, MYSQL Connector Arduino y/o buscar librerias para Wifi.h en internet o el gestor de bibliotecas de arduino, comprobar si son las mismas o alguna que emplee esa funcion e instalarla en el programa, sea desde ahi en arduino, con link agregado de github o similar al video para ese caso.
